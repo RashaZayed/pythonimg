@@ -9,14 +9,14 @@
 <body>
     <div id="mainBlock">
         <div id="pythonimg">
-            <img src="python.png" alt="pyhtonimg">
+            <img src="python.png" alt="pyhtonimg" >
         </div>
         <div id="text">
-            <label for="textsize">Text Size: </label>
+                     Text Size:
             <label for="normal">Normal</label>
-            <input type="checkbox" id="normal" value="normal" name="textsize">
+            <input type="radio" id="normal" value="normal" name="textsize"><span> | </span>
             <label for="large">Large</label>
-            <input type="checkbox" id="large" name="textsize" value="textsize">
+            <input type="radio" id="large" name="textsize" value="textsize">
             <div id="search">
                 <input type="text" id="searchbar" placeholder="Search">
                 <input type="button" id="Go" value="Go">
@@ -24,8 +24,8 @@
             </div>
 
         </div>
-        <div class="navbar">
-            <ul>
+        <div id="navbar">
+            <ul id="nav">
                 <li> <a href="">About</a></li>
                 <li> <a href="">Downloads</a></li>
                 <li><a href="">Documentation</a></li>
@@ -36,17 +36,18 @@
         </div>
 
         <div id="menu">
-            <ul>
-                <li><a href="">Docs</a></li>
-                <li><a href="">Audio/Visual talk</a></li>
-                <li><a href="">Begginer's Guide</a></li>
-                <li><a href="">Developer's Guide</a> </li>
-                <li><a href="">PEP index</a></li>
-                <li><a href="">Python Books</a></li>
-                <li><a href="">FAQ</a></li>
+            <ul id="menubar">
+                <li><span>>> </span><a href="">Docs</a></li>
+                <li><span>>> </span><a href="">Audio/Visual talk</a></li>
+                <li><span>>> </span><a href="">Begginer's Guide</a></li>
+                <li><span>>> </span><a href="">Developer's Guide</a> </li>
+                <li><span>>> </span><a href="">PEP index</a></li>
+                <li><span>>> </span><a href="">Python Books</a></li>
+                <li><span>>> </span><a href="">FAQ</a></li>
             </ul>
         </div>
         <div id="rightBlock">
+            <br>
             <p id="history">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming
                 language whose design focus emphasizes code readability. Whether for processing/analyzing 
                 data to powering many well-known applications, Python is not only a great language for new 
@@ -55,7 +56,7 @@
                 
             </p>
             <p id="advices">
-                Beautiful is better than ugly;<br>
+               <h3></h3> Beautiful is better than ugly;<br>
                 Explicit is better than implicit;<br>
                 Simple is better than complex;<br>
               Complex is better than complicated;<br>
